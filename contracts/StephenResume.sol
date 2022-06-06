@@ -48,7 +48,6 @@ contract StephenResume is ERC721, Ownable {
     payable
     enoughSupply(_mintAmount)
   {
-    uint256 supply = totalSupply();
     require(!paused);
 
     if (msg.sender != owner()) {
@@ -57,7 +56,7 @@ contract StephenResume is ERC721, Ownable {
         }
     }
 
-    _mintAmount(_to, _mintAmount);
+    _mintLoop(_to, _mintAmount);
   }
 
   function _mintLoop(address _receiver, uint256 _mintAmount) internal {
