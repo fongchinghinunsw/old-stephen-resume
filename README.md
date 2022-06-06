@@ -2,6 +2,8 @@
 
 A collection of my resumes are now available as NFTs on the Rinkeby blockchain :)
 
+The mint price is 0.05 ETH, feel free to mint as many as you want so that I can eat meat this month~
+
 ## Opensea
 https://testnets.opensea.io/collection/stephen-resume
 
