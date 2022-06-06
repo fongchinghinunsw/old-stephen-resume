@@ -119,4 +119,8 @@ module.exports = {
   //     }
   //   }
   // }
+  api_keys: {
+    etherscan: require("./secrets.json").etherscanApiKey,
+  },
+  plugins: ["truffle-plugin-verify"],
 };
